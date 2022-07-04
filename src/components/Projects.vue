@@ -1,8 +1,14 @@
 <template>
   <div>
     <div class="projects-container">
-      <a href="https://mashinbank.com" target="_blank" class="project-details"
-       data-aos="fade-up" data-aos-once="true" data-aos-delay="50">
+      <a
+        href="https://mashinbank.com"
+        target="_blank"
+        class="project-details"
+        data-aos="fade-up"
+        data-aos-once="true"
+        data-aos-delay="50"
+      >
         <div class="project-details">
           <div class="image-container">
             <img src="@/assets/images/mb-logo.png" alt="mashin bank" />
@@ -16,8 +22,14 @@
           </ul>
         </div>
       </a>
-      <a href="https://law-tech.ir" target="_blank" class="project-details"
-       data-aos="fade-up" data-aos-once="true" data-aos-delay="50">
+      <a
+        href="https://law-tech.ir"
+        target="_blank"
+        class="project-details"
+        data-aos="fade-up"
+        data-aos-once="true"
+        data-aos-delay="50"
+      >
         <div class="project-details">
           <div class="image-container">
             <img src="@/assets/images/lawtech-logo.png" alt="lawtech" />
@@ -31,8 +43,14 @@
           </ul>
         </div>
       </a>
-      <a href="https://edutech.co" target="_blank" class="project-details"
-       data-aos="fade-up" data-aos-once="true" data-aos-delay="50">
+      <a
+        href="https://edutech.co"
+        target="_blank"
+        class="project-details"
+        data-aos="fade-up"
+        data-aos-once="true"
+        data-aos-delay="50"
+      >
         <div class="project-details">
           <div class="image-container">
             <img src="@/assets/images/edutech.png" alt="edutech" />
@@ -46,8 +64,14 @@
           </ul>
         </div>
       </a>
-      <a href="https://adilar.com/" target="_blank" class="project-details"
-       data-aos="fade-up" data-aos-once="true" data-aos-delay="50">
+      <a
+        href="https://adilar.com/"
+        target="_blank"
+        class="project-details"
+        data-aos="fade-up"
+        data-aos-once="true"
+        data-aos-delay="50"
+      >
         <div class="project-details">
           <div class="image-container">
             <img src="@/assets/images/adilar-logo.png" alt="edutech" />
@@ -60,8 +84,14 @@
           </ul>
         </div>
       </a>
-      <a href="https://trendu.net/" target="_blank" class="project-details"
-       data-aos="fade-up" data-aos-once="true" data-aos-delay="50">
+      <a
+        href="https://trendu.net/"
+        target="_blank"
+        class="project-details"
+        data-aos="fade-up"
+        data-aos-once="true"
+        data-aos-delay="50"
+      >
         <div class="project-details">
           <div class="image-container">
             <img src="@/assets/images/trend-logo.png" alt="edutech" />
@@ -73,8 +103,13 @@
           </ul>
         </div>
       </a>
-      <router-link to="/demos" class="project-details"
-       data-aos="fade-up" data-aos-once="true" data-aos-delay="50">
+      <router-link
+        to="/demos"
+        class="project-details"
+        data-aos="fade-up"
+        data-aos-once="true"
+        data-aos-delay="50"
+      >
         <div class="project-details">
           <div class="image-container">
             <img src="@/assets/images/demo.png" alt="edutech" />
@@ -87,7 +122,5 @@
 </template>
 
 <script>
-export default {
-
-}
+export default {};
 </script>

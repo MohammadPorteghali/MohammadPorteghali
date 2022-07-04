@@ -55,24 +55,28 @@
 </template>
 
 <script>
-import { VueTyper } from 'vue-typer'
+import { VueTyper } from "vue-typer";
 
 export default {
   data() {
     return {
       showJobTitle: false,
       showLocation: false,
-    }
+    };
   },
   components: { VueTyper },
   methods: {
     showJobTitleFunction() {
-      setTimeout(() => { this.showJobTitle = true } ,1600);
-      setTimeout(() => { this.showLocation = true } ,3000);
-    }
+      setTimeout(() => {
+        this.showJobTitle = true;
+      }, 1600);
+      setTimeout(() => {
+        this.showLocation = true;
+      }, 3000);
+    },
   },
   mounted() {
-    this.showJobTitleFunction()
-  }
-}
+    this.showJobTitleFunction();
+  },
+};
 </script>

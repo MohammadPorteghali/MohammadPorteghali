@@ -12,28 +12,30 @@
 export default {
   computed: {
     test() {
-      return window
-    }
-  }, 
+      return window;
+    },
+  },
   watch: {
     test(val) {
       console.log(val);
-      this.isInViewport('test')
-    }
+      this.isInViewport("test");
+    },
   },
   // created () {
   //   window.addEventListener('scroll', this.isInViewport('test'));
   // },
   methods: {
-    isInViewport (elem) {
+    isInViewport(elem) {
       var bounding = document.querySelector(elem).getBoundingClientRect();
       return (
         bounding.top >= 0 &&
         bounding.left >= 0 &&
-        bounding.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
-        bounding.right <= (window.innerWidth || document.documentElement.clientWidth)
+        bounding.bottom <=
+          (window.innerHeight || document.documentElement.clientHeight) &&
+        bounding.right <=
+          (window.innerWidth || document.documentElement.clientWidth)
       );
-    }
-  }
-}
+    },
+  },
+};
 </script>
