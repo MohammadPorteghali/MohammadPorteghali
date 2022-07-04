@@ -1,0 +1,52 @@
+.about-container {
+  padding: 10vh 0;
+
+  @include respond(tab-land) {
+    padding-top: 0;
+  }
+
+  & .des {
+    margin: 10vh 10vw 25vh;
+    font-size: 1.9vw;
+    font-weight: 500;
+    line-height: 250%;
+
+    @include respond(tab-land) {
+      margin: 5vh 5vw;
+    }
+
+    @include respond(big-phone) {
+      flex: 1;
+      margin: 0 5vw;
+      font-size: 4.5vw;
+    }
+
+    & a {
+      color: $primary;
+      font-weight: 500;
+    }
+  }
+
+  & .image-container {
+    @include respond(big-phone) {
+      flex: 1;
+      width: 100%;
+      text-align: center;
+    }
+
+    & img {
+      width: 300px;
+      margin-top: 7vh;
+      opacity: 0.9 !important;
+
+      @include respond(tab-land) {
+        width: 200px;
+        margin-top: 3vh;
+      }
+
+      @include respond(big-phone) {
+        width: 80vw;
+      }
+    }
+  }
+}
