@@ -1,5 +1,6 @@
 <template>
   <div>
+    <div class="projects-title">Some of my latest projects</div>
     <div class="projects-container">
       <a
         href="https://barespace.io/"
