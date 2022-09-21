@@ -2,6 +2,68 @@
   <div>
     <div class="projects-container">
       <a
+        href="https://barespace.io/"
+        target="_blank"
+        class="project-details"
+        data-aos="fade-up"
+        data-aos-once="true"
+        data-aos-delay="50"
+      >
+        <div class="project-details">
+          <div class="image-container">
+            <img src="@/assets/images/barespace.png" alt="barespace" />
+          </div>
+          <h4>Barespace</h4>
+          <h6>Optimize beauty brand platform</h6>
+          <ul>
+            <li>Web application</li>
+            <li>Manegment panel</li>
+          </ul>
+        </div>
+      </a>
+      <a
+        href="https://www.endlessfairs.com/"
+        target="_blank"
+        class="project-details"
+        data-aos="fade-up"
+        data-aos-once="true"
+        data-aos-delay="50"
+      >
+        <div class="project-details">
+          <div class="image-container">
+            <img
+              src="@/assets/images/endlessfairs-logo.png"
+              alt="endlessfairs"
+            />
+          </div>
+          <h4>Endlessfairs</h4>
+          <h6>Virtual fair platform</h6>
+          <ul>
+            <li>Web application</li>
+          </ul>
+        </div>
+      </a>
+      <a
+        href="https://bixos.io/"
+        target="_blank"
+        class="project-details"
+        data-aos="fade-up"
+        data-aos-once="true"
+        data-aos-delay="50"
+      >
+        <div class="project-details">
+          <div class="image-container">
+            <img src="@/assets/images/bixos-icon.svg" alt="bixos" />
+          </div>
+          <h4>Bixos</h4>
+          <h6>Blockchain technologies</h6>
+          <ul>
+            <li>Web application</li>
+            <li>Manegment panel</li>
+          </ul>
+        </div>
+      </a>
+      <a
         href="https://mashinbank.com"
         target="_blank"
         class="project-details"
@@ -19,27 +81,6 @@
             <li>Website</li>
             <li>Web application</li>
             <li>Manegment panel</li>
-          </ul>
-        </div>
-      </a>
-      <a
-        href="https://law-tech.ir"
-        target="_blank"
-        class="project-details"
-        data-aos="fade-up"
-        data-aos-once="true"
-        data-aos-delay="50"
-      >
-        <div class="project-details">
-          <div class="image-container">
-            <img src="@/assets/images/lawtech-logo.png" alt="lawtech" />
-          </div>
-          <h4>Lawtech</h4>
-          <h6>Legal affairs platform</h6>
-          <ul>
-            <li>Website</li>
-            <li>Manegment panel</li>
-            <li>Blog</li>
           </ul>
         </div>
       </a>
@@ -84,26 +125,7 @@
           </ul>
         </div>
       </a>
-      <a
-        href="https://trendu.net/"
-        target="_blank"
-        class="project-details"
-        data-aos="fade-up"
-        data-aos-once="true"
-        data-aos-delay="50"
-      >
-        <div class="project-details">
-          <div class="image-container">
-            <img src="@/assets/images/trend-logo.png" alt="edutech" />
-          </div>
-          <h4>Trend</h4>
-          <h6>Advertising platform</h6>
-          <ul>
-            <li>Manegment panel</li>
-          </ul>
-        </div>
-      </a>
-      <router-link
+      <!-- <router-link
         to="/demos"
         class="project-details"
         data-aos="fade-up"
@@ -116,7 +138,7 @@
           </div>
           <h4>Demo projects</h4>
         </div>
-      </router-link>
+      </router-link> -->
     </div>
   </div>
 </template>
