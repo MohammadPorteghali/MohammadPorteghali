@@ -9,7 +9,7 @@
       Hey, I’m Mohammad Porteghali
       <br />I’m a Front-end developer based in Turkey, specializing in Vue.js
       <br />I’ve started my career as a Front-end developer since 2018. <br />
-      <a href="https://mopo.dev/resume.pdf" class="link"> ↓ resume </a>
+      <a href="/files/resume.pdf" download class="link"> ↓ resume </a>
     </div>
   </div>
 </template>
